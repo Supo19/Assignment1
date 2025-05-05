@@ -1,0 +1,78 @@
+h1 {
+    color: rgb(8, 8, 8);
+    text-align: center;
+    font-style: italic;
+
+}
+
+body {
+    background-color: rgb(245, 220, 239);
+   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ 
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: f2bfe3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(221, 147, 195);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: hsl(0, 100%, 98%);
+} 
+
+.footer-heading{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+.footer-heading h2{
+  margin-bottom: 2rem;
+}
+.footer-heading a{
+  color: white;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+.footer-heading a:hover{
+  color: rgb(245,220,239);
+  transition: 0.3s case-out;
+}
+
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: rgb(245,220,239);
+  padding: 70px;
+}
+
+.par{
+  font-size: medium;
+  text-decoration: none;
+  font-style: normal;
+}
